@@ -1,0 +1,13 @@
+.projects-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 400px;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
