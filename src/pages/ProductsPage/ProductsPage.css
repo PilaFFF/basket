@@ -1,4 +1,4 @@
-.projects-page-container {
+.products-page-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -12,8 +12,14 @@
     gap: 30px;
 }
 
+@media (max-width: 1024px) {
+    .products-page-container {
+        width: 350px;
+    }
+}
+
 @media (max-width: 768px) {
-    .projects-page-container {
+    .products-page-container {
         box-sizing: border-box;
         width: 100%;
     }

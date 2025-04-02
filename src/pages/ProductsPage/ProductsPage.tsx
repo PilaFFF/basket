@@ -20,7 +20,7 @@ const ProductsPage: React.FC = observer(() => {
     };
 
     return (
-        <div className="projects-page-container">
+        <div className="products-page-container">
             <ModalAdd
                 title="Добавить товар"
                 isModalOpen={isModalOpen}
