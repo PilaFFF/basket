@@ -11,3 +11,10 @@
     flex-direction: column;
     gap: 30px;
 }
+
+@media (max-width: 768px) {
+    .projects-page-container {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

@@ -24,7 +24,7 @@ export const ProductItem: React.FC<ProductProps> = observer(
         const isInBasket = basketStore.basket.some((item) => item.id === id);
 
         return (
-            <Card title={name} variant="borderless" style={{ width: 400 }}>
+            <Card title={name} variant="borderless" className="product-card">
                 <div className="product-container">
                     <div className="product-description">
                         {description || 'Нет описания'}
