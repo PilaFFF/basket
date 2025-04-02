@@ -20,6 +20,12 @@
     border-radius: 6px;
 }
 
+@media (max-width: 1024px) {
+    .basket-page-container {
+        width: 350px;
+    }
+}
+
 @media (max-width: 768px) {
     .basket-page-container {
         box-sizing: border-box;
