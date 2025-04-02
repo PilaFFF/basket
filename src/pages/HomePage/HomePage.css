@@ -1,0 +1,11 @@
+.home-page-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .home-page-container {
+        flex-direction: column;
+        width: 100%;
+    }
+}
